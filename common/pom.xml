@@ -16,7 +16,7 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <my.logback.version>1.2.3</my.logback.version>
+        <logback.version>1.2.3</logback.version>
     </properties>
 
 
@@ -24,7 +24,6 @@
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
-            <version>${my.logback.version}</version>
             <type>pom</type>
         </dependency>
     </dependencies>
