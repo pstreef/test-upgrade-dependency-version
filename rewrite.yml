@@ -1,0 +1,10 @@
+---
+type: specs.openrewrite.org/v1beta/recipe
+name: org.openrewrite.UpgradeDependencyVersionTest
+displayName: Test upgrade dependency
+description: Test upgrade dependency.
+recipeList:
+  - org.openrewrite.maven.UpgradeDependencyVersion:
+      groupId: ch.qos.logback
+      artifactId: logback-classic
+      newVersion: 1.5.6
